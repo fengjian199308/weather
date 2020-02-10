@@ -1,0 +1,19 @@
+{
+    "name": "fengjian199308/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fengjian199308",
+            "email": "857538312@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fengjian199308\\Weather\\": "./src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}
